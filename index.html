@@ -61,30 +61,39 @@
  
 <br>
 
-<div class="container">
-<div class="row">
-    <h1 class="text-center">OBMC Student Enrollment Form</h1>
-</div>
+ 
+<h2>Contact Us</h2>
 
-<header>
-<div class="container mt-3">
-    <h2>Contact Us</h2>
-    <form>
-        <div class="mb-3 mt-3">
-            <label for="Full name">Full Name:</label>
-            <input type="Fname" class="form-control" id="email" placeholder="Enter your name" name="email">
-        </div>
-        <div class="mb-3 mt-3">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-        </div>
-        <div class="mb-3 mt-3">
-            <label for="subject">Subject:</label>
-            <input type="Subject" class="form-control" id="subject" placeholder="Enter subject" name="subject">
-        </div>
-    </form>
-</div>
-   
+
+  <form action="#" method="POST">
+    <div>
+      <label for="fullname">Full Name</label><br>
+      <input type="text" id="fullname" name="fullname" size="40" placeholder="Enter your full name" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="email">Email Address</label><br>
+      <input type="email" id="email" name="email" size="40" placeholder="Enter your email" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="subject">Subject</label><br>
+      <input type="text" id="subject" name="subject" size="40" placeholder="Enter subject" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" cols="38" placeholder="Type your message here" required></textarea>
+    </div>
+    <br>
+
+    <div>
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
     <br>
 
     <footer>
